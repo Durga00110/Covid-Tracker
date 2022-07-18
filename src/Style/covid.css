@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.text-card{
+ text-align: center;
+ font-size: 15px;
+ font-weight: 100px;
+ color: white;
+ 
+}
+.span-card{
+ text-align: center;
+ font-size: 22px;
+ font-weight: bold;
+ color: white;
+}
+.country-card{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000;
+    color: black;
+    text-shadow: 7px 1px 1px #ced4da87;
+}
+.card{
+    height: 230px;
+    width: 300px;
+    /* background-color: rgb(25, 76, 216); */
+    border-radius: 0px;
+    box-shadow: 7px 6px 5px;
+    transition: 0.5s ease-in-0ut;
+}
+.card-a:hover{
+    transform: translateY(20px);
+}
+
+.main{
+   display: flex;
+   justify-content: center;
+   
+}
+#a{
+   background-color: rgb(25, 76, 216);  
+}
+#b{
+    background-color: rgb(16, 243, 103);  
+ }
+ #c{
+    background-color: rgb(243, 202, 65);  
+ }
+ #d{
+    background-color: rgb(241, 75, 33);  
+ }
+ #e{
+    background-color: rgb(22, 82, 247);  
+ }
+ #f{
+    background-color: rgb(109, 112, 57);  
+ }
+ #india{
+    font-size: 57px;
+ }
+.statebutton{
+   display: flex;
+   justify-content: center;
+}
